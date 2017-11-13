@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ping Pong!</h1>
+      <form id="ping-pong-form">
+        <div class="form-group">
+          <label for="goal">Enter a number:</label>
+          <input id="goal" type="number">
+          <button class="btn-success" type="submit">Submit</button>
+        </div>
+      </form>
+      <form id="signup">
+        <div class="form-group">
+          <label for="email">Enter your email:</label>
+          <input id="email" type="text">
+          <button class="btn-success" type="submit">Submit</button>
+        </div>
+      </form>
+      <ul id="solution"></ul>
+      <h3>Well look at the time! </h3>
+      <h3 id="time"></h3>
+    </div>
+
+    <form id="calculator">
+       <div class="form-input">
+         <label for="num1">Enter Number:</label>
+         <input id="num1" class="form-control" type="number">
+       </div>
+       <br>
+       <div class="form-input">
+         <label for="num2">Enter Another Number:</label>
+         <input id="num2" class="form-control" type="number">
+       </div>
+
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="add" checked>
+           Addition
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="subtract">
+           Subtraction
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="multiply">
+           Multiplication
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="operator" value="divide">
+           Division
+         </label>
+       </div>
+
+       <button type="submit" class="btn">Calculate</button>
+       <button id = "reset" type="reset" class="btn">Reset</button>
+     </form>
+  </body>
+</html>
