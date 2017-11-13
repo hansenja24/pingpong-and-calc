@@ -26,46 +26,48 @@
       <ul id="solution"></ul>
       <h3>Well look at the time! </h3>
       <h3 id="time"></h3>
-    </div>
 
-    <form id="calculator">
-       <div class="form-input">
-         <label for="num1">Enter Number:</label>
-         <input id="num1" class="form-control" type="number">
-       </div>
-       <br>
-       <div class="form-input">
-         <label for="num2">Enter Another Number:</label>
-         <input id="num2" class="form-control" type="number">
-       </div>
 
-       <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="add" checked>
-           Addition
-         </label>
-       </div>
-       <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="subtract">
-           Subtraction
-         </label>
-       </div>
-       <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="multiply">
-           Multiplication
-         </label>
-       </div>
-       <div class="radio">
-         <label>
-           <input type="radio" name="operator" value="divide">
-           Division
-         </label>
-       </div>
+      <form id="calculator">
+         <div class="form-input">
+           <label for="num1">Enter Number:</label>
+           <input id="num1" class="form-control" type="number">
+         </div>
+         <br>
+         <div class="form-input">
+           <label for="num2">Enter Another Number:</label>
+           <input id="num2" class="form-control" type="number">
+         </div>
 
-       <button type="submit" class="btn">Calculate</button>
-       <button id = "reset" type="reset" class="btn">Reset</button>
-     </form>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="add" checked>
+             Addition
+           </label>
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="sub">
+             Subtraction
+           </label>
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="mul">
+             Multiplication
+           </label>
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="div">
+             Division
+           </label>
+         </div>
+
+         <button type="submit" class="btn">Calculate</button>
+         <button id = "reset" type="reset" class="btn">Reset!</button>
+       </form>
+       <h2 id="result">Solution</h2>
+     </div>
   </body>
 </html>
